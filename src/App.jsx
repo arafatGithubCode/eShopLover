@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 //layout
 import Header from "./layouts/header/Header";
+import HeaderBottom from "./layouts/header/HeaderBottom";
 //pages
 import Home from "./pages/Home";
 import Shop from "./pages/Shop";
@@ -14,6 +15,7 @@ function App() {
     <>
       <Router>
         <Header />
+        <HeaderBottom />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
