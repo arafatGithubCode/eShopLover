@@ -39,6 +39,7 @@ import {
   ricoh5,
   espson1,
   espson2,
+  bannerImgOne,
 } from "../assets/images/index";
 
 // ========= NavBarList Start here ==========
@@ -1721,5 +1722,34 @@ export const paginationItems = [
       { label: "Dimensions", value: "525 x 310 x 158 mm" },
       { label: "Garantie", value: "1 an" },
     ],
+  },
+];
+
+// =========== slides list =======
+
+export const slides = [
+  {
+    imgSrc: bannerImgOne,
+    text: "Enhance Your Printing Experience",
+    Subtext:
+      "Explore our premium printers and consumables for exceptional results",
+    buttonLink: "/offer",
+    buttonText: "Shop Now",
+  },
+  {
+    imgSrc: bannerImgOne,
+    text: "Quality Printing Solutions",
+    Subtext:
+      "Discover our wide range of printers and consumables designed for professional printing needs.",
+    buttonLink: "/about",
+    buttonText: "About-us",
+  },
+  {
+    imgSrc: bannerImgOne,
+    text: "Efficiency Redefined",
+    Subtext:
+      "Maximize productivity with our advanced printers and high-quality consumables. ",
+    buttonLink: "/contact",
+    buttonText: "Contact-us",
   },
 ];
