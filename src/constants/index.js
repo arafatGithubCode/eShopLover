@@ -1,4 +1,4 @@
-// =================== NavBarList Start here ====================
+// ========= NavBarList Start here ==========
 export const navBarList = [
   {
     _id: 1001,
@@ -27,7 +27,7 @@ export const navBarList = [
   },
 ];
 
-// =================== categoryList Start here ====================
+// ========= categoryList Start here ==========
 
 export const categoryList = [
   {
@@ -52,7 +52,7 @@ export const categoryList = [
   },
 ];
 
-// =================== user-panel Start here ====================
+// ========= user-panel Start here ==========
 
 export const user = [
   {

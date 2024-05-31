@@ -35,7 +35,7 @@ const HeaderBottom = () => {
   return (
     <div className="w-full relative bg-[#F5F5F3] shadow">
       <div className="max-w-container mx-auto">
-        <Flex className="flex flex-col md:flex-row lg:justify-around py-3 gap-2 px-5 md:px-0">
+        <Flex className="flex flex-col md:flex-row lg:justify-around gap-1 px-3 last:pb-2 md:py-2">
           <div
             ref={categoryMenuList}
             onClick={() => setShowCategory(!showCategory)}

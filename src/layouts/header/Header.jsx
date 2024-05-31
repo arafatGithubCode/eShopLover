@@ -48,7 +48,7 @@ const Header = () => {
     };
   }, [sideNav]);
   return (
-    <div className="border-b-[1px] border-gray-200 w-full h-16 bg-white sticky top-0 shadow">
+    <div className="border-b-[1px] border-gray-200 w-full h-16 bg-white sticky top-0 shadow z-50">
       <nav className="max-w-container mx-auto px-4 h-full relative">
         <Flex className="flex items-center justify-between h-full">
           <Link to="/">
@@ -69,7 +69,7 @@ const Header = () => {
                     key={_id}
                     to={link}
                     state={{ data: location.pathname.split("/")[1] }}
-                    className="flex justify-center items-center font-normal hover:font-bold h-6 w-20 px-12 text-base text-[#767676] hover:underline underline-offset-[4px] decoration-1px hover:text-[#262626] md:border-r-[2px] border-r-gray-300 last:border-r-0 hoverEffect"
+                    className="flex justify-center items-center font-normal hover:font-bold h-6 w-20 px-12 text-base text-[#767676] hover:underline underline-offset-[4px] decoration-1px hover:text-[#262626] md:border-r-[2px] border-r-gray-300 last:border-r-0 hoverEffect z-50"
                   >
                     <li>{title}</li>
                   </NavLink>
