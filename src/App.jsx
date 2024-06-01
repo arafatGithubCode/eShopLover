@@ -9,6 +9,7 @@ import Shop from "./pages/Shop";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Journal from "./pages/Journal";
+import SpecialCase from "./layouts/specialCase/SpecialCase";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Router>
         <Header />
         <HeaderBottom />
+        <SpecialCase />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
