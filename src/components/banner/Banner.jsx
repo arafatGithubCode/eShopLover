@@ -97,7 +97,7 @@ const Banner = () => {
     ],
   };
   return (
-    <div className="bg-gray-100 p-2">
+    <div className="bg-gray-100 overflow-hidden">
       <Slider {...settings}>
         {slides &&
           slides.map((slide, index) => (
