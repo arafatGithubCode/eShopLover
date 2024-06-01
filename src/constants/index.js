@@ -40,6 +40,10 @@ import {
   espson1,
   espson2,
   bannerImgOne,
+  newArrOne,
+  newArrTwo,
+  newArrThree,
+  newArrFour,
 } from "../assets/images/index";
 
 // ========= NavBarList Start here ==========
@@ -1751,5 +1755,55 @@ export const slides = [
       "Maximize productivity with our advanced printers and high-quality consumables. ",
     buttonLink: "/contact",
     buttonText: "Contact-us",
+  },
+];
+
+// =========== products' list =======
+
+export const products = [
+  {
+    _id: "100001",
+    img: newArrOne,
+    productName: "Round Table Clock",
+    price: "44.00",
+    color: "Black",
+    badge: true,
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+  },
+  {
+    _id: "100002",
+    img: newArrTwo,
+    productName: "Smart Watch",
+    price: "250.00",
+    color: "Black",
+    badge: true,
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+  },
+  {
+    _id: "100003",
+    img: newArrThree,
+    productName: "Cloth Basket",
+    price: "80.00",
+    color: "Mixed",
+    badge: true,
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+  },
+  {
+    _id: "100004",
+    img: newArrFour,
+    productName: "Funny toys for babies",
+    price: "60.00",
+    color: "Mixed",
+    badge: false,
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+  },
+  {
+    _id: "100005",
+    img: newArrTwo,
+    productName: "Funny toys for babies",
+    price: "60.00",
+    color: "Mixed",
+    badge: false,
+    des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
   },
 ];

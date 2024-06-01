@@ -22,9 +22,9 @@ const Sale = () => {
               </span>{" "}
               sales for all impriamnte{" "}
             </p>
-            <div className=" mb-8">
+            <Link to="/shop" className="mb-8 inline-block">
               <ShopNow />
-            </div>
+            </Link>
           </div>
         </div>
       </div>
