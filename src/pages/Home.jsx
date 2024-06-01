@@ -3,6 +3,7 @@ import BannerBottom from "../components/banner/BannerBottom";
 import BestSellerProductList from "../components/home/bestSellers/BestSellers";
 import NewArrivals from "../components/home/newArrivals/NewArrivals";
 import Sale from "../components/home/sale/Sale";
+import SpecialProduct from "../components/home/specialProduct/SpecialProduct";
 import YearProduct from "../components/home/yearProduct/YearProduct";
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
         <NewArrivals />
         <BestSellerProductList />
         <YearProduct />
+        <SpecialProduct />
       </div>
     </div>
   );

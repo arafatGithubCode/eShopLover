@@ -1,13 +1,11 @@
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import { products } from "../../../constants";
 import Heading from "../products/Heading";
+import { SplOfferData } from "../../../constants";
 import Product from "../products/Product";
-import SampleNextArrow from "./SampleNextArrow";
-import SamplePrevArrow from "./SamplePrevArrow";
+import SampleNextArrow from "../newArrivals/SampleNextArrow";
+import SamplePrevArrow from "../newArrivals/SamplePrevArrow";
 
-const NewArrivals = () => {
+const SpecialProduct = () => {
   const settings = {
     infinite: true,
     autoplay: true,
@@ -44,25 +42,27 @@ const NewArrivals = () => {
     ],
   };
   return (
-    <div className="w-full pb-16">
-      <Heading heading="New Arrivals" />
+    <div>
+      <Heading heading="Special Products" />
       <Slider {...settings}>
-        {products &&
-          products.map((product) => (
-            <div className="px-2" key={`product${product._id}`}>
-              <Product
-                _id={product._id}
-                img={product.img}
-                productName={product.productName}
-                price={product.price}
-                color={product.color}
-                badge={product.badge}
-              />
-            </div>
-          ))}
+        {SplOfferData &&
+          SplOfferData.slice()
+            .reverse()
+            .map((product) => (
+              <div className="px-2" key={`product${product._id}`}>
+                <Product
+                  _id={product._id}
+                  img={product.img}
+                  productName={product.productName}
+                  price={product.price}
+                  color={product.color}
+                  badge={product.badge}
+                />
+              </div>
+            ))}
       </Slider>
     </div>
   );
 };
 
-export default NewArrivals;
+export default SpecialProduct;
