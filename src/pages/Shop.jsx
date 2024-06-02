@@ -1,5 +1,11 @@
+import Breadcrumbs from "../components/pageProps/Breadcrumbs";
+
 const Shop = () => {
-  return <div>Shop</div>;
+  return (
+    <div>
+      <Breadcrumbs title="Products" />
+    </div>
+  );
 };
 
 export default Shop;
