@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import paymentCart from "./paymentCart.png";
 import bannerImgOne from "./banner/bannerImgOne.webp";
 import bannerImgTwo from "./banner/bannerImgTwo.webp";
 import bannerImgThree from "./banner/bannerImgThree.webp";
@@ -74,6 +75,7 @@ import espson2 from "../images/products/imprimante/espson2.webp";
 
 export {
   logo,
+  paymentCart,
   bannerImgOne,
   bannerImgTwo,
   bannerImgThree,

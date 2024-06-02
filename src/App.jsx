@@ -10,6 +10,8 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Journal from "./pages/Journal";
 import SpecialCase from "./layouts/specialCase/SpecialCase";
+import Footer from "./layouts/footer/Footer";
+import FooterBottom from "./layouts/footer/FooterBottom";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/journal" element={<Journal />} />
         </Routes>
+        <Footer />
+        <FooterBottom />
         <ToastContainer
           position="top-right"
           autoClose={5000}
