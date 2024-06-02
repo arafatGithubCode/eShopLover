@@ -5,7 +5,7 @@ import Price from "./shopBy/Price";
 
 const ShopSideNav = () => {
   return (
-    <div className="grid sm:grid-cols-2 gap-2 px-4 lg:grid-cols-1 lg:w-1/4 lg:border-r xl:w-1/5">
+    <div className="grid sm:grid-cols-2 gap-2 pl-4 lg:grid-cols-1 lg:w-1/4 lg:border-r xl:w-1/5">
       <Category />
       <Brand />
       <Color />
