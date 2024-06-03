@@ -6,6 +6,8 @@ const initialState = {
   products: [],
   checkedBrands: [],
   checkedCategories: [],
+  checkedColors: [],
+  checkedPrice: [],
 };
 
 export const shopLoverSlice = createSlice({
@@ -19,7 +21,7 @@ export const shopLoverSlice = createSlice({
       if (item) {
         item.quantity += action.payload.quantity;
       } else {
-        item.products.push(action.payload);
+        state.products.push({ ...action.payload, quantity: 1 });
       }
       //dispatch a success toast
       toast.success("Product added to cart");
@@ -77,6 +79,32 @@ export const shopLoverSlice = createSlice({
         state.checkedCategories.push(category);
       }
     },
+    toggleColor: (state, action) => {
+      const color = action.payload;
+      const isColorChecked = state.checkedColors.some(
+        (c) => c._id === color._id
+      );
+      if (isColorChecked) {
+        state.checkedColors = state.checkedColors.filter(
+          (c) => c._id !== color._id
+        );
+      } else {
+        state.checkedColors.push(color);
+      }
+    },
+    togglePrice: (state, action) => {
+      const price = action.payload;
+      const isPriceChecked = state.checkedPrice.some(
+        (p) => p._id === price._id
+      );
+      if (isPriceChecked) {
+        state.checkedPrice = state.checkedPrice.filter(
+          (p) => p._id !== price._id
+        );
+      } else {
+        state.checkedPrice.push(price);
+      }
+    },
   },
 });
 
@@ -88,6 +116,8 @@ export const {
   resetCart,
   toggleBrand,
   toggleCategory,
+  toggleColor,
+  togglePrice,
 } = shopLoverSlice.actions;
 
 export default shopLoverSlice.reducer;

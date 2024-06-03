@@ -1,42 +1,22 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import NavTitle from "./NavTitle";
-
-const priceList = [
-  {
-    _id: 950,
-    priceOne: 0.0,
-    priceTwo: 49.99,
-  },
-  {
-    _id: 951,
-    priceOne: 50.0,
-    priceTwo: 99.99,
-  },
-  {
-    _id: 952,
-    priceOne: 100.0,
-    priceTwo: 199.99,
-  },
-  {
-    _id: 953,
-    priceOne: 200.0,
-    priceTwo: 399.99,
-  },
-  {
-    _id: 954,
-    priceOne: 400.0,
-    priceTwo: 599.99,
-  },
-  {
-    _id: 955,
-    priceOne: 600.0,
-    priceTwo: 1000.0,
-  },
-];
+import { priceList } from "../../../../constants";
+import { useDispatch, useSelector } from "react-redux";
+import { togglePrice } from "../../../../redux/shopLoverSlice";
 
 const Price = () => {
   const [showPrices, setShowPrices] = useState(false);
+
+  const checkedPrice = useSelector(
+    (state) => state.shopLoverReducer.checkedPrice
+  );
+
+  const dispatch = useDispatch();
+
+  const handleTogglePrice = (price) => {
+    dispatch(togglePrice(price));
+  };
 
   return (
     <div className="border-b-[1px] border-b-gray-200">
@@ -55,7 +35,15 @@ const Price = () => {
                 key={item._id}
                 className="border-b-[1px] border-b-[#F0F0F0] pb-2 flex items-center gap-2 hover:text-primeColor hover:border-gray-400 duration-300 cursor-pointer"
               >
-                $ {item.priceOne.toFixed(2)} - $ {item.priceTwo.toFixed(2)}
+                <input
+                  checked={checkedPrice.some((p) => p._id === item._id)}
+                  onChange={() => handleTogglePrice(item)}
+                  type="checkbox"
+                  id={item._id}
+                />
+                <label htmlFor={item._id}>
+                  $ {item.priceOne.toFixed(2)} - $ {item.priceTwo.toFixed(2)}
+                </label>
               </li>
             ))}
           </ul>

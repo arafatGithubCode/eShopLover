@@ -1,29 +1,22 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import NavTitle from "./NavTitle";
-
-const brands = [
-  {
-    _id: 900,
-    title: "Pantum",
-  },
-  {
-    _id: 901,
-    title: "Hp",
-  },
-  {
-    _id: 902,
-    title: "Epson",
-  },
-
-  {
-    _id: 903,
-    title: "Ricoh",
-  },
-];
+import { brandList } from "../../../../constants/index.js";
+import { useDispatch, useSelector } from "react-redux";
+import { toggleBrand } from "../../../../redux/shopLoverSlice.js";
 
 const Brand = () => {
   const [showBrands, setShowBrands] = useState(false);
+
+  const checkedBrands = useSelector(
+    (state) => state.shopLoverReducer.checkedBrands
+  );
+
+  const dispatch = useDispatch();
+
+  const handleToggleBrands = (brand) => {
+    dispatch(toggleBrand(brand));
+  };
 
   return (
     <div className="border-b-[1px] border-b-gray-200">
@@ -37,12 +30,17 @@ const Brand = () => {
           transition={{ duration: 0.5 }}
         >
           <ul className="flex flex-col gap-4 text-sm lg:text-base text-[#767676]">
-            {brands.map((item) => (
+            {brandList.map((item) => (
               <li
                 key={item._id}
                 className="border-b-[1px] border-b-[#F0F0F0] pb-2 flex items-center gap-2 hover:text-primeColor hover:border-gray-400 duration-300 cursor-pointer"
               >
-                <input type="checkbox" id={item._id} />
+                <input
+                  checked={checkedBrands.some((b) => b._id === item._id)}
+                  onChange={() => handleToggleBrands(item)}
+                  type="checkbox"
+                  id={item._id}
+                />
                 <label className="cursor-pointer" htmlFor={item._id}>
                   {item.title}
                 </label>
