@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 import { BsGridFill } from "react-icons/bs";
 import { GoTriangleDown } from "react-icons/go";
 import { ImList } from "react-icons/im";
 
-const ProductBanner = () => {
+const ProductBanner = ({ onItemsPerPageFromBanner }) => {
   const [gridViewActive, setGridViewActive] = useState(true);
   const [listViewActive, setListViewActive] = useState(false);
 
@@ -78,13 +79,14 @@ const ProductBanner = () => {
           </label>
           <div className="relative">
             <select
+              onChange={(e) => onItemsPerPageFromBanner(+e.target.value)}
               className="w-32 md:w-52 border border-gray-200 py-1 px-4 block text-primeColor  text-base cursor-pointer dark:placeholder-gray-400 appearance-none focus-within:outline-none focus-visible:border-primeColor"
               id="show"
             >
               <option value="12">12</option>
               <option value="24">24</option>
               <option value="36">36</option>
-              <option value="48r">48r</option>
+              <option value="48r">48</option>
             </select>
             <span className="text-lg absolute top-2 right-1">
               <GoTriangleDown />
@@ -94,6 +96,10 @@ const ProductBanner = () => {
       </div>
     </div>
   );
+};
+
+ProductBanner.propTypes = {
+  onItemsPerPageFromBanner: PropTypes.func,
 };
 
 export default ProductBanner;
