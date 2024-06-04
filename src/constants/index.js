@@ -227,6 +227,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "imprimante",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "202",
@@ -237,6 +251,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "imprimante",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "203",
@@ -247,6 +275,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "imprimante",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "204",
@@ -257,6 +299,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "imprimante",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "205",
@@ -267,6 +323,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "imprimante",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "206",
@@ -277,6 +347,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "imprimante",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "207",
@@ -287,6 +371,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "imprimante",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "208",
@@ -297,6 +395,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "imprimante",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "209",
@@ -307,6 +419,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "ancre",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "210",
@@ -317,6 +443,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "ancre",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "211",
@@ -327,6 +467,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "ancre",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "212",
@@ -337,6 +491,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "ancre",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "213",
@@ -347,6 +515,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "Ruban",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "214",
@@ -357,6 +539,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "Ruban",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "215",
@@ -367,6 +563,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "Ruban",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "216",
@@ -377,6 +587,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "Ruban",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "217",
@@ -387,6 +611,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "Bac",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "219",
@@ -397,6 +635,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "Bac",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "220",
@@ -407,6 +659,20 @@ export const SplOfferData = [
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
     cat: "Bac",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "221",
@@ -1860,6 +2126,20 @@ export const products = [
     color: "Black",
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "100002",
@@ -1869,6 +2149,20 @@ export const products = [
     color: "Black",
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "100003",
@@ -1878,6 +2172,20 @@ export const products = [
     color: "Mixed",
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "100004",
@@ -1887,6 +2195,20 @@ export const products = [
     color: "Mixed",
     badge: false,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "100005",
@@ -1896,6 +2218,20 @@ export const products = [
     color: "Mixed",
     badge: false,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
 ];
 
@@ -1910,6 +2246,20 @@ export const bestSellerProducts = [
     color: "Black and White",
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "1012",
@@ -1919,6 +2269,20 @@ export const bestSellerProducts = [
     color: "Gray",
     badge: false,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "1013",
@@ -1928,6 +2292,20 @@ export const bestSellerProducts = [
     color: "Mixed",
     badge: true,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
   {
     _id: "1014",
@@ -1937,5 +2315,19 @@ export const bestSellerProducts = [
     color: "Black",
     badge: false,
     des: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis.",
+    ficheTech: [
+      { label: "Technology ", value: "Electrophotographic monochrome laser " },
+      { label: "Print speed ", value: "22 ppm (A4)/23 ppm (Letter)" },
+
+      { label: "First print out time ", value: "Less than 7.8s       " },
+      { label: "Maximum Monthly Duty Cycle", value: "15,000 pages " },
+      {
+        label: "Recommended monthly volume Resolution(dpi) ",
+        value: "700 pages ",
+      },
+      { label: "Printer language Duplex Mode ", value: "Max. 1,200×1,200 " },
+      { label: "Printer  ", value: "Max. 1,2   " },
+      { label: "galass  ", value: "Max. 1,2   " },
+    ],
   },
 ];

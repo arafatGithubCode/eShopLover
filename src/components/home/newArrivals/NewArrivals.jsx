@@ -57,6 +57,8 @@ const NewArrivals = () => {
                 price={product.price}
                 color={product.color}
                 badge={product.badge}
+                des={product.des}
+                ficheTech={product.ficheTech}
               />
             </div>
           ))}

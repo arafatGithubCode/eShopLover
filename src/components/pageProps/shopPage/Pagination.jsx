@@ -51,6 +51,7 @@ const Items = ({
               price={item.price}
               color={item.color}
               badge={item.badge}
+              ficheTech={item.ficheTech}
             />
           </div>
         ))}
