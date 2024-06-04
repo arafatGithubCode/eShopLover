@@ -100,7 +100,11 @@ const Header = () => {
                         key={_id}
                         className="font-normal hover:font-bold items-center text-lg text-gray-200 hover:underline underline-offset-[4px]  hover:text-white md:border-r-[2px] border-r-gray-300 hoverEffect last:border-r-0"
                       >
-                        <NavLink to={link} onClick={() => setSideNav(false)}>
+                        <NavLink
+                          state={{ data: location.pathname.split("/")[1] }}
+                          to={link}
+                          onClick={() => setSideNav(false)}
+                        >
                           {title}
                         </NavLink>
                       </li>
