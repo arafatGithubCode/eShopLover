@@ -73,6 +73,7 @@ const Product = ({
                   addToCart({
                     _id: _id,
                     name: productName,
+                    img: img,
                     colors: color,
                     price: price,
                     badge: badge,

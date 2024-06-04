@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { categoryList, paginationItems, user } from "../../constants";
 import { FaCaretDown, FaSearch, FaShoppingCart, FaUser } from "react-icons/fa";
 import { BsSuitHeartFill } from "react-icons/bs";
+import { useSelector } from "react-redux";
 const HeaderBottom = () => {
   const [showCategory, setShowCategory] = useState(false);
   const categoryMenuList = useRef(null);
@@ -15,6 +16,8 @@ const HeaderBottom = () => {
   const [filteredProducts, setFilteredProducts] = useState([]);
 
   const navigate = useNavigate();
+
+  const products = useSelector((state) => state.shopLoverReducer.products);
 
   const handleClickOutside = (event) => {
     if (
@@ -161,7 +164,7 @@ const HeaderBottom = () => {
               <div className="text-xl relative">
                 <FaShoppingCart />
                 <span className="absolute font-titleFont top-3 -right-2 text-xs w-4 h-4 flex items-center justify-center rounded-full bg-primeColor text-white">
-                  0
+                  {products.length > 0 ? products.length : 0}
                 </span>
               </div>
             </Link>

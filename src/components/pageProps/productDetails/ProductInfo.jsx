@@ -1,6 +1,4 @@
 /* eslint-disable react/prop-types */
-// import PropTypes from "prop-types";
-
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../../redux/shopLoverSlice";
 
@@ -24,7 +22,7 @@ const ProductInfo = ({ productInfo }) => {
     return <>{description}</>;
   };
   return (
-    <div className="space-y-8">
+    <div className="space-y-4">
       <h2 className="text-4xl font-semibold">{productInfo.productName}</h2>
       <p className="flex items-center gap-2 text-2xl font-semibold">
         {productInfo.price} Dt
@@ -112,11 +110,5 @@ const ProductInfo = ({ productInfo }) => {
     </div>
   );
 };
-
-// ProductInfo.propTypes = {
-//   productInfo: PropTypes.shape({
-//     productName: PropTypes.string,
-//   }),
-// };
 
 export default ProductInfo;

@@ -14,6 +14,7 @@ import SpecialCase from "./layouts/specialCase/SpecialCase";
 import Footer from "./layouts/footer/Footer";
 import FooterBottom from "./layouts/footer/FooterBottom";
 import ProductDetails from "./pages/ProductDetails";
+import Cart from "./pages/cart/Cart";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/journal" element={<Journal />} />
           <Route path="/product/:productPath" element={<ProductDetails />} />
+          <Route path="/cart" element={<Cart />} />
         </Routes>
         <Footer />
         <FooterBottom />
