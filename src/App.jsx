@@ -15,6 +15,7 @@ import Footer from "./layouts/footer/Footer";
 import FooterBottom from "./layouts/footer/FooterBottom";
 import ProductDetails from "./pages/ProductDetails";
 import Cart from "./pages/cart/Cart";
+import Payment from "./pages/Payment";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/journal" element={<Journal />} />
           <Route path="/product/:productPath" element={<ProductDetails />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/paymentgateway" element={<Payment />} />
         </Routes>
         <Footer />
         <FooterBottom />
