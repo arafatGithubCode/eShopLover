@@ -53,9 +53,11 @@ const Signin = () => {
   return (
     <div className="w-full h-screen flex">
       <div className="bg-primeColor text-white h-full w-[40%] lgl:w-[35%] hidden lg:inline-flex flex-col px-8 space-y-3">
-        <div className="font-bold text-2xl font-titleFont pt-0 mt-0">
-          shopLover
-        </div>
+        <Link to="/">
+          <div className="font-bold text-2xl font-titleFont pt-0 mt-0">
+            shopLover
+          </div>
+        </Link>
 
         <div className="space-y-1">
           <p className="text-xl font-bold">Stay sign in for more</p>

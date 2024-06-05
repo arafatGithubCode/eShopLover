@@ -13,6 +13,7 @@ import ProductDetails from "../pages/ProductDetails";
 import Cart from "../pages/cart/Cart";
 import Payment from "../pages/Payment";
 import Signin from "../pages/account/Signin";
+import SignUp from "../pages/account/SignUp";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
@@ -30,6 +31,7 @@ export const router = createBrowserRouter(
         <Route path="/paymentgateway" element={<Payment />} />
       </Route>
       <Route path="signin" element={<Signin />} />
+      <Route path="signup" element={<SignUp />} />
     </Route>
   )
 );
