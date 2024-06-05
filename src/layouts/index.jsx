@@ -4,7 +4,7 @@ import HeaderBottom from "./header/HeaderBottom";
 import SpecialCase from "./specialCase/SpecialCase";
 import Footer from "./footer/Footer";
 import FooterBottom from "./footer/FooterBottom";
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 
 const Layout = () => {
   return (
@@ -24,6 +24,7 @@ const Layout = () => {
       <Header />
       <HeaderBottom />
       <SpecialCase />
+      <ScrollRestoration />
       <Outlet />
       <Footer />
       <FooterBottom />

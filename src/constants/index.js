@@ -207,12 +207,12 @@ export const user = [
   {
     _id: 3003,
     title: "Profile",
-    link: "/profile",
+    link: "/",
   },
   {
     _id: 3004,
     title: "Others",
-    link: "/others",
+    link: "/",
   },
 ];
 
