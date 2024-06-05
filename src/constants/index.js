@@ -197,7 +197,7 @@ export const user = [
   {
     _id: 3001,
     title: "Login",
-    link: "/login",
+    link: "/signin",
   },
   {
     _id: 3002,
